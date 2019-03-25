@@ -1,0 +1,32 @@
+#function to search string in files
+function find_code() {
+    local i=0
+    local file_types="cpp c hpp h m py java sh"
+    local file_type
+    for file_type in $file_types
+    do
+        if [ "$i" -gt 0 ]
+        then
+            local sep="-o"
+        fi
+        ((i++))
+        # echo "file type: $file_type"
+        local arg="$arg $sep -iname "\""*.$file_type"\"
+	# echo "arg: $arg"
+    done
+    
+    local str=$1
+#    echo "find . -type f $arg |xargs grep -n $str |less"
+#    find . -type f $arg |xargs grep -n $str |less
+#    set -x
+    cmd="find . -type f $arg | xargs grep -n $str | less"
+    eval "$cmd" 
+#    echo "$cmd" 
+#    set +x
+}
+
+#dummy
+function tsh() {
+    echo '$1=' $1;
+    echo '$@=' $@;
+}
