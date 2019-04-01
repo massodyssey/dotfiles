@@ -26,6 +26,9 @@ call plug#begin('~/.vim/plugged')
     Plug 'itchyny/lightline.vim'
     Plug 'itchyny/calendar.vim'
     Plug 'jremmen/vim-ripgrep'
+    Plug 'flazz/vim-colorschemes'
+    Plug 'rafi/awesome-vim-colorschemes'
+    Plug 'rainglow/vim'
 call plug#end()
 
 "disable nerdtree help and make look nice
