@@ -3,6 +3,7 @@ alias a='alias'
 alias rm='rm -i'
 alias mv='mv -i'
 alias my='chmod go-rx'
+alias myw='chmod u+w'
 alias ll='ls -lh'
 alias ls='ls -CF'
 alias cp='cp -i'
@@ -19,17 +20,29 @@ alias up2='pushd ../..'
 alias up3='pushd ../../..'
 alias up4='pushd ../../../..'
 alias up5='pushd ../../../../..'
+alias vdf='vimdiff '
+
+#tmux
+alias tls='tmux ls'
+alias tns='tmux new -s '
+alias tat='tmux attach -t '
+
+#github
+alias gtdot='git clone https://github.com/massodyssey/dotfiles.git'
+alias gtfch='git fetch'
 
 # local aliases
 alias gdrc='pushd /mnt/c'
 alias gdre='pushd /mnt/e'
 alias gdrl='pushd /mnt/l'
+alias mdrs='sudo mount -t drvfs S: /mnt/s'
 alias gdrs='pushd /mnt/s/lxu'
 alias gd2='pushd /mnt/l/d2'
 alias tcode='tree -P "*.cpp|*.hpp|*.c|*.h"'
 alias gc11='pushd /mnt/l/d2/c11'
 alias gsh='pushd /mnt/l/d2/bash'
 alias gshr='pushd /mnt/e/vbox_shared'
+alias gitprj='pushd /mnt/e/vbox_shared/git_proj'
 # work
 alias gwk='pushd /mnt/e/wk/new'
 alias g19b='pushd /mnt/e/wk/new/19b_gk'
@@ -60,4 +73,5 @@ alias gplctool='pushd matlab/test/tools/plctools'
 # configset
 alias gplccfg='pushd matlab/toolbox/simulink/configset_model/datamodel'
 alias gplccfgtst='pushd matlab/test/toolbox/simulink/configsets/CSH'
+
 
