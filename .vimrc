@@ -50,5 +50,12 @@ let g:lightline = {
       \ 'colorscheme': 'solarized',
       \ }
 
+"set color
+if &diff
+    colorscheme github
+    syntax off
+endif
+
 set laststatus=2
+
 
