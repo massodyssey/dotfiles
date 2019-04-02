@@ -21,6 +21,8 @@ alias up3='pushd ../../..'
 alias up4='pushd ../../../..'
 alias up5='pushd ../../../../..'
 alias vdf='vimdiff '
+alias f='fortune '
+alias mt='motivate '
 
 #tmux
 alias tls='tmux ls'
@@ -43,6 +45,7 @@ alias gc11='pushd /mnt/l/d2/c11'
 alias gsh='pushd /mnt/l/d2/bash'
 alias gshr='pushd /mnt/e/vbox_shared'
 alias gitprj='pushd /mnt/e/vbox_shared/git_proj'
+alias jlbox='ssh jinglinh-deb9-64.dhcp.mathworks.com'
 # work
 alias gwk='pushd /mnt/e/wk/new'
 alias g19b='pushd /mnt/e/wk/new/19b_gk'
