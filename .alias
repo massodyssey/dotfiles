@@ -24,6 +24,14 @@ alias vdf='vimdiff '
 alias f='fortune '
 alias mt='motivate '
 
+#debian
+alias dup='sudo apt update'
+alias dins='sudo apt install'
+
+#arch
+alias aup='sudo pacman  -Syu'
+alias ains='sudo pacman -S'
+
 #tmux
 alias tls='tmux ls'
 alias tns='tmux new -s '
