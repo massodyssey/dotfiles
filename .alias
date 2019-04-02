@@ -36,6 +36,7 @@ alias ains='sudo pacman -S'
 alias tls='tmux ls'
 alias tns='tmux new -s '
 alias tat='tmux attach -t '
+alias tks='tmux kill-server'
 
 #github
 alias gtdot='git clone https://github.com/massodyssey/dotfiles.git'
